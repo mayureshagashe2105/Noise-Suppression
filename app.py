@@ -36,7 +36,6 @@ if nav_choice == 'Home':
             st.audio(audio_sample)
             with st.spinner('Wait for it...'):
                 time.sleep(1)
-                prog1 = st.progress(0)
                 preds = model.predict(tf.expand_dims(audio.audio, 0))
                 preds = tf.reshape(preds, (-1, 1))
                 _param_dict.update({'predicted_outcomes': preds})
