@@ -1,0 +1,6 @@
+matplotlib==3.3.2
+tensorflow_gpu==2.3.1
+streamlit==0.73.1
+numpy==1.18.5
+scipy==1.5.3
+tensorflow==2.6.0
